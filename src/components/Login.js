@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
+import { auth } from '../firebase';
 import { login } from '../features/userSlice';
 
 function Login() {
